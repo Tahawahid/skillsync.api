@@ -1,0 +1,6 @@
+@skillsync.api_HostAddress = http://localhost:5229
+
+GET {{skillsync.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
