@@ -47,6 +47,7 @@
 
     public class OnboardingCompleteDto
     {
+        public int UserId { get; set; }
         public PersonalDetailsDto PersonalDetails { get; set; } = null!;
         public EducationDto Education { get; set; } = null!;
         public WorkExperienceDto WorkExperience { get; set; } = null!;
